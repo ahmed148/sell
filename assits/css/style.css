@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+header .row{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 10px;
+    font-size: 18px;
+}
+.icon {
+    margin-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.col-md-4 i {
+    font-size: 32px;
+    margin-right: 20px;
+}
+.icon i{
+    
+    margin-left: 20px;
+    font-size: 22px;
+}
+#carousel-example-generic{
+    position: relative;
+    top: -80px;
+}
+nav{
+    position: absolute;
+    z-index: 9999;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    margin-top: -70px;
+}
+main h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.img-main{
+    position: relative;
+}
+.info-main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.info-main a{
+    margin-left: 60px;
+}
+article{
+    margin-top: 10px;
+}
+.img-art{
+    position: relative;
+}
+.info-art{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.info-art h2{
+    color:white;
+}
+.email i{
+    font-size: 18px;
+}
+#social{
+display: flex;
+margin-right: 10px;
+}
+#social li{
+    margin-right: 10px;
+    
+}
+#social i{
+    font-size: 18px;
+}
+#spacial{
+    color: black;
+}
+.col-md-6 img{
+    width: 100%;
+}
+section{
+    margin-top: 10px;
+}
+section .col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section li{
+    list-style: none;
+}
+.h-section{
+    margin-left: 35px;
+}
+#up-footer{
+    background-color: rgb(219, 215, 215);
+    padding: 80px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer i {
+    font-size: 32px;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+footer .col-md-8{
+    display: flex;
+    justify-content:flex-end;
+}
